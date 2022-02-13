@@ -5,6 +5,13 @@
 
 AI based Maze Solver uses Stack or Queue Frontier's to encounter and solve maze's and helps you analyze which search problem has less path cost in similar scenarios. The program only uses uninformed search strategy since it's harder to analyse their behaviour. Program also generates an Image of the final result of the solved maze within the same as program directory with associated name *"maze.png"*. While giving the image output the user is also provided the option wether they want to see the explored path (path which was explored but did not result in provide to reach the goal.) or just the path that counts the actions which resulted in reaching the *Goal Point*. The program enumerates how many states were explored before reaching the goal using an reverse action algorithm which helps the user to analyze for which scenario which search problem type finds the optimal path.
 
+
+**Run the file in terminal with this code**
+```
+python maze.py <text_filename.txt>
+```
+
+
 4 distinct scenarios of maze's have been provided in the repo. User can create more in text files nevertheless it should be finite should exactly have **1 Start and 1 Goal Point.**
 
 
