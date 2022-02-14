@@ -28,7 +28,14 @@ frontier.add(start)
 ```
 
 ## **Maze Legend**
-![maze-legend](https://user-images.githubusercontent.com/67305606/153759315-f08e9b18-c94f-4c94-8548-239011c08af3.png)
+
+>`#` ➡ `Maze Wall`
+
+>`A` ➡ `Start Point`
+
+>`B` ➡ `Goal Point`
+
+>`" "` ➡ `Explorable Space`
 
 ## **Image Output**
 After the maze is solved and the user provides the exploration argument an image with the name *maze.png* is printed and automatically opens the image before exiting the program.
@@ -36,9 +43,14 @@ After the maze is solved and the user provides the exploration argument an image
 ![maze](https://user-images.githubusercontent.com/67305606/153759352-0f5618af-3879-44a0-b3d4-4389ac6c0486.png)
 
 ## Maze Output Legend
-- ![#282828](https://via.placeholder.com/15/282828/000000?text=+) `Wall`
-- ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) `Start Point`
-- ![#00ab1c](https://via.placeholder.com/15/00ab1c/000000?text=+) `Goal Point`
-- ![#dceb71](https://via.placeholder.com/15/dceb71/000000?text=+) `Goal Path`
-- ![#d46155](https://via.placeholder.com/15/d46155/000000?text=+) `Explored Path`
-- ![#edf0fc](https://via.placeholder.com/15/edf0fc/000000?text=+) `Blank Path`
+> ![#282828](https://via.placeholder.com/15/282828/000000?text=+) `Wall`
+
+> ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) `Start Point`
+
+> ![#00ab1c](https://via.placeholder.com/15/00ab1c/000000?text=+) `Goal Point`
+
+> ![#dceb71](https://via.placeholder.com/15/dceb71/000000?text=+) `Goal Path`
+
+> ![#d46155](https://via.placeholder.com/15/d46155/000000?text=+) `Explored Path`
+
+> ![#edf0fc](https://via.placeholder.com/15/edf0fc/000000?text=+) `Blank Path`
